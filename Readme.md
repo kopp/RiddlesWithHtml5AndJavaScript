@@ -4,6 +4,8 @@ Hier ist eine einfache Website mit minimalem HTML und CSS, in der man
 einfache Fragen beantworten kann, und die Antwort dann automatisch geprüft
 wird.
 
+[![Hier anschauen](https://img.shields.io/badge/anschauen-es%20ist%20online-green.svg)](https://kopp.github.io/RiddlesWithHtml5AndJavaScript/)
+
 
 # Hinweise
 
