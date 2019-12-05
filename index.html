@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Eine Website mit Rätseln, die automatisch geprüft werden</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet"    type="text/css"     href="style.css" />
+
+    <script type="text/javascript" src="auswertungen.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon"          type="image/x-icon" href="favicon.ico" />
+
+    <meta name="description" content="Use HTML5 and JavaScript." />
+    <meta name="keywords" content="HTML, JS, JavaScript" />
+    <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+
+  <header>
+      <h1>Rätsel mit Prüfung</h1>
+  </header>
+
+  <main>
+
+      <section>
+          <h2>Einfaches Addieren</h2>
+          <p>Wie viel ist 2 + 2?</p>
+          <p><input id="EingabeEinfachesAddieren" /><input type="button" onclick="AuswertungEinfachesAddieren();" value="Auswerten"/></p>
+          <p id="AntwortEinfachesAddieren" class="versteckt">Hier wird die Antwort stehen :-)</p>
+      </section>
+
+      <section>
+          <h2>Einfaches Multiplizieren</h2>
+          <p>Wie viel ist 2 * 3?</p>
+          <p><input id="EingabeEinfachesMultiplizieren" /><input type="button" onclick="Auswertung('EinfachesMultiplizieren', 6);" value="Auswerten"/></p>
+          <p id="AntwortEinfachesMultiplizieren" class="versteckt">Hier wird die Antwort stehen :-)</p>
+      </section>
+
+      <section>
+          <h2>Einfaches Teilen</h2>
+          <p>Wie viel ist 6 / 2?</p>
+          <p><input id="EingabeEinfachesTeilen" /><input type="button" onclick="Auswertung('EinfachesTeilen', 3);" value="Auswerten"/></p>
+          <p id="AntwortEinfachesTeilen" class="versteckt">Hier wird die Antwort stehen :-)</p>
+      </section>
+
+  </body>
+</html>
+
